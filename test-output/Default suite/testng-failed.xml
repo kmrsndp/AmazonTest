@@ -6,6 +6,7 @@
       <class name="com.amazon.qa.testcases.LoginPageTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyLoginPageTitle"/>
           <include name="setUp"/>
           <include name="loginTest"/>
         </methods>

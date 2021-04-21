@@ -21,7 +21,7 @@ public class TestBase {
 	
 		try {
 		prop = new Properties();
-		FileInputStream input = new FileInputStream("../TestAmazonWorkflow/src/main/java/com/amazon/qa/config/config.properties"); 
+		FileInputStream input = new FileInputStream("../AmazonTest/src/main/java/com/amazon/qa/config/config.properties"); 
 		prop.load(input);
 		
 		}
